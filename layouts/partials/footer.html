@@ -1,0 +1,93 @@
+<div class="footer-content">
+    <!-- Top bottom -->
+  <div class="pure-menu pure-menu-horizontal pure-item">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" id="btn-gototop">
+          <span class="fixup">&#x21e7;&#xfe0e;</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+    <!-- Credits -->
+  {{- with .Site.Copyright }}
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item pure-menu-disabled">
+        &copy; {{ now.Format "2006" }} &mdash; {{ . }}
+      </li>
+    </ul>
+  </div>
+  {{- end }}
+
+</div>
+
+{{ partial "mathjax.html" . }}
+
+<script>
+function setElementsClass(selector, value) {
+    Array.prototype.forEach.call(
+      document.querySelectorAll(selector),
+      function(elem) { elem.className = value; }
+    );
+  }
+  
+  setElementsClass('img', 'pure-img');
+  setElementsClass('table', 'pure-table');
+
+  function onResize() {
+      setElementsClass(
+        '.pure-menu', document.documentElement.clientWidth >= 568 ?
+              'pure-menu pure-menu-horizontal' : 'pure-menu'
+      );
+  }
+  onResize();
+  window.addEventListener('resize', onResize);
+
+   document.getElementById('btn-gototop').addEventListener('click', function() {
+        function scroll() {
+          if (window.pageYOffset > 0) { setTimeout(scroll, 8); }
+          window.scroll(0, window.pageYOffset - 128);
+        }
+        scroll();
+    });
+   
+    // Tag <code> elements with language name
+    function do_code_tagging() {
+        var elements = document.querySelectorAll('code');
+        for (var i = 0; i < elements.length; i++) {
+            var lang = elements[i].getAttribute("class");
+            if (lang != null ) {
+                lang = lang.substr(lang.length - (lang.length-9));
+            }
+            elements[i].setAttribute("data-lang", lang);
+        }
+    }
+    do_code_tagging();
+
+   // Wrap <pre> elements with div
+   function wrap(el, wrapper) {
+       el.parentNode.insertBefore(wrapper, el);
+       wrapper.appendChild(el);
+    }
+
+   // Wrap code elements with divs. This is to display the code block's
+   // if any.
+   function do_wrapping() {
+    var elements = document.querySelectorAll('pre');
+    for (var i = 0; i < elements.length; i++) { 
+        var el = elements[i];
+        wrap(el, document.createElement('div'));
+        
+        var par1 = el.parentNode;
+        par1.className = 'code-content';
+
+        wrap(par1, document.createElement('div'));
+        var par2 = par1.parentNode;
+        par2.className = 'listingblock';
+        } 
+    }
+	do_wrapping();
+</script>
+

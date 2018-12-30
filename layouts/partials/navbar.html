@@ -1,0 +1,23 @@
+<div class="navigation-header">
+
+  <div class="pure-menu pure-menu-horizontal">
+    <a class="pure-menu-heading pure-menu-link" href="{{ .Site.Home.URL }}">
+      {{ .Site.Title }}
+    </a>
+  </div>
+
+</div>
+
+<div class="navigation-content">
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      {{- $curr := . }}
+      {{- range .Site.Menus.main }}
+      {{- $selected := cond (or ($curr.IsMenuCurrent "main" .) ($curr.HasMenuCurrent "main" .)) " pure-menu-selected" "" }}
+      <li class="pure-menu-item{{ $selected }}">
+        <a  class="pure-menu-link" href="{{.URL}}">{{ .Name }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</div>

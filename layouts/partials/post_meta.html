@@ -1,0 +1,18 @@
+<div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="{{ .Date.Format "January 2, 2006" }}">
+      {{- .Date.Format (cond (isset $.Site.Params "datefmt") $.Site.Params.datefmt "January 2, 2006") -}}
+    </time>
+
+  {{- range $taxo := (slice "Categories" "Tags") }}
+    {{- $elems := $.Param $taxo }}
+    {{- if $elems }},
+    <strong class="post-meta-info"> {{ $taxo }}: </strong>
+      {{- range $name := $elems }}
+        {{- with $.Site.GetPage (lower (printf "/%s/%s" $taxo (urlize $name))) }}
+    <a href="{{ .Permalink }}">{{ $name }}</a>
+        {{- end }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+</div>

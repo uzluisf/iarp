@@ -1,0 +1,17 @@
+name = "IARP"
+license = "MIT"
+licenselink = "http://opensource.org/licenses/MIT"
+description = "A Hugo theme without warranties."
+homepage = "https://github.com/uzluisf/iarp"
+tags = ["blog", "personal"]
+features = ["responsive"]
+min_version = "0.01"
+
+[author]
+    name = "Luis F. Uceta"
+    homepage = "uzluisf.gitlab.io"
+
+[original]
+    name = "Slick"
+    homepage = "https://www.der-beweis.de"
+    repo = "https://github.com/spookey/slick"
