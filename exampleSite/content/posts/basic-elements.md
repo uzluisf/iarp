@@ -2,6 +2,7 @@
 title: Short Markdown and HTML reference
 date: 2018-04-16
 draft: false
+include_math: false
 categories: []
 tags: ["HTML", "CSS", "Markdown"]
 ---

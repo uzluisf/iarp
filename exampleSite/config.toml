@@ -1,42 +1,39 @@
-baseUrl                = "/"
-title                  = "Scratchpad"
+baseUrl                = "/"           # Site's base url
+title                  = "IARP"
 theme                  = "iarp"
 languageCode           = "en"
 defaultContentLanguage = "en-us"
-canonifyURLs           = true
-copyright              = "╰( ･ ᗜ ･ )╯"  # footer text
+canonifyURLs           = true           
+copyright              = "╰( ･ ᗜ ･ )╯"  # Footer text
 
 # Configure pagination
 Paginate     = 10
 PaginatePath = "page"
 
-
 [params]
     description     = "Notes website" # Site's description
     datefmt         = "02 Jan 2006"   # Custom date format
-    showfullcontent = false           # Show full content
-    math            = true            # Enable Mathjax support
+    showfullcontent = false           # Show full content if true
 
-# Define all supported taxonomies (add series to the default)
-[taxonomies]
-    tags       = "tags"
-    categories = "categories"
-    series     = "series"
+# MathJax support must be enabled per page. To enable it, include 
+# `include_math = true` in your page's front matter.
 
 [author]
     name  = "Xyz Zyx"
     email = "xyz@abc.com"
 
-[menu]
+# Define all supported taxonomies
+[taxonomies]
+    tags       = "tags"
+    categories = "categories"
 
-    # Configure main menu entries (header)
-    # Currently set to list all taxonomies and posts
+# Configure main menu entries (header)
+[menu]
     [[menu.main]]
         identifier = "categories"
         name       = "Categories"
         url        = "/categories/"
         weight     = 1
-
     [[menu.main]]
         identifier = "tags"
         name       = "Tags"

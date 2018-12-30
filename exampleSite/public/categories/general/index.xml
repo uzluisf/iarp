@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on IARP</title>
+    <link>/categories/general/</link>
+    <description>Recent content in General on IARP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>xyz@abc.com (Xyz Zyx)</managingEditor>
+    <webMaster>xyz@abc.com (Xyz Zyx)</webMaster>
+    <copyright>╰( ･ ᗜ ･ )╯</copyright>
+    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Music</title>
+      <link>/posts/music/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/music/</guid>
+      <description>  Artists Channels Songs  Artists  憂鬱 A.L.I.S.O.N Ark Patrol Beats for Nujabes Blazo Bonobo Com Truise Electronic Gems Emil Rottmayer  Descend  Flamingosis Fluence FM-84 Gold Panda Hello Meteor Handbooks HOME 1  Before The Night Falling Into Place Odissey  Idealism IHF In Love With A Ghost Jon Hopkins JPJ Kodomo Maximum Love Mura Masa  Someday Somewhere Soundtrack To A Death   Nujabes ODESZA Rosentwig Slow Magic Tycho Vanilla Wafia WMD  Channels Songs </description>
+    </item>
+    
+  </channel>
+</rss>

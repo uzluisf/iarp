@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Posts | IARP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Xyz Zyx" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link rel="stylesheet" href="/assets/scripts.js" />
+  <meta name="generator" content="Hugo 0.52" />
+</head>
+
+<body>
+
+<div class="container">
+  <div class="pure-u-1-24 pure-u-md-5-24"></div>
+  <div class="pure-u-22-24 pure-u-md-14-24">
+  <div class="navigation-header">
+
+  <div class="pure-menu pure-menu-horizontal">
+    <a class="pure-menu-heading pure-menu-link" href="/">
+      IARP
+    </a>
+  </div>
+
+</div>
+
+<div class="navigation-content">
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a  class="pure-menu-link" href="/categories/">Categories</a>
+      </li>
+      <li class="pure-menu-item">
+        <a  class="pure-menu-link" href="/tags/">Tags</a>
+      </li>
+      <li class="pure-menu-item">
+        <a  class="pure-menu-link" href="/about/">About</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  
+<div>
+  <p>Posts:</p>
+  <ul>
+    <li>
+      <div class="post-title">
+        <a href="/posts/music/">Music</a>
+      </div>
+      <div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="April 16, 2018">16 Apr 2018</time>,
+    <strong class="post-meta-info"> Categories: </strong>
+    <a href="/categories/general/">General</a>,
+    <strong class="post-meta-info"> Tags: </strong>
+    <a href="/tags/music/">Music</a>
+</div>
+
+    </li>
+    <li>
+      <div class="post-title">
+        <a href="/posts/math/">Rendering Math</a>
+      </div>
+      <div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="April 16, 2018">16 Apr 2018</time>,
+    <strong class="post-meta-info"> Tags: </strong>
+    <a href="/tags/html/">HTML</a>
+    <a href="/tags/css/">CSS</a>
+    <a href="/tags/markdown/">Markdown</a>
+</div>
+
+    </li>
+    <li>
+      <div class="post-title">
+        <a href="/posts/basic-elements/">Short Markdown and HTML reference</a>
+      </div>
+      <div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="April 16, 2018">16 Apr 2018</time>,
+    <strong class="post-meta-info"> Tags: </strong>
+    <a href="/tags/html/">HTML</a>
+    <a href="/tags/css/">CSS</a>
+    <a href="/tags/markdown/">Markdown</a>
+</div>
+
+    </li>
+    <li>
+      <div class="post-title">
+        <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
+      </div>
+      <div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="September 28, 2014">28 Sep 2014</time>
+</div>
+
+    </li>
+    <li>
+      <div class="post-title">
+        <a href="/posts/links/">Links</a>
+      </div>
+      <div class="post-meta">
+    <strong class="post-meta-info">Date:</strong> 
+    <time datetime="January 1, 0001">01 Jan 0001</time>,
+    <strong class="post-meta-info"> Categories: </strong>
+    <a href="/categories/links/">Links</a>
+</div>
+
+    </li>
+  </ul>
+</div>
+
+
+<div class="pagination-content">
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+
+      <span class="pure-menu-item pure-menu-disabled">
+        Pages
+      </span>
+      <li class="pure-menu-item pure-menu-selected">
+        <a href="/posts/" class="pure-menu-link">First</a>
+      </li>
+      <li class="pure-menu-item pure-menu-selected">
+        <a href="/posts/" class="pure-menu-link">Last</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  <div class="footer-content">
+    
+  <div class="pure-menu pure-menu-horizontal pure-item">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" id="btn-gototop">
+          <span class="fixup">&#x21e7;&#xfe0e;</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+    
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item pure-menu-disabled">
+        &copy; 2018 &mdash; ╰( ･ ᗜ ･ )╯
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+<script>
+function setElementsClass(selector, value) {
+    Array.prototype.forEach.call(
+      document.querySelectorAll(selector),
+      function(elem) { elem.className = value; }
+    );
+  }
+  
+  setElementsClass('img', 'pure-img');
+  setElementsClass('table', 'pure-table');
+
+  function onResize() {
+      setElementsClass(
+        '.pure-menu', document.documentElement.clientWidth >= 568 ?
+              'pure-menu pure-menu-horizontal' : 'pure-menu'
+      );
+  }
+  onResize();
+  window.addEventListener('resize', onResize);
+
+   document.getElementById('btn-gototop').addEventListener('click', function() {
+        function scroll() {
+          if (window.pageYOffset > 0) { setTimeout(scroll, 8); }
+          window.scroll(0, window.pageYOffset - 128);
+        }
+        scroll();
+    });
+   
+    
+    function do_code_tagging() {
+        var elements = document.querySelectorAll('code');
+        for (var i = 0; i < elements.length; i++) {
+            var lang = elements[i].getAttribute("class");
+            if (lang != null ) {
+                lang = lang.substr(lang.length - (lang.length-9));
+            }
+            elements[i].setAttribute("data-lang", lang);
+        }
+    }
+    do_code_tagging();
+
+   
+   function wrap(el, wrapper) {
+       el.parentNode.insertBefore(wrapper, el);
+       wrapper.appendChild(el);
+    }
+
+   
+   
+   function do_wrapping() {
+    var elements = document.querySelectorAll('pre');
+    for (var i = 0; i < elements.length; i++) { 
+        var el = elements[i];
+        wrap(el, document.createElement('div'));
+        
+        var par1 = el.parentNode;
+        par1.className = 'code-content';
+
+        wrap(par1, document.createElement('div'));
+        var par2 = par1.parentNode;
+        par2.className = 'listingblock';
+        } 
+    }
+	do_wrapping();
+</script>
+
+
+  </div>
+  <div class="pure-u-1-24 pure-u-md-5-24"></div>
+</div>
+
+</body>
+</html>

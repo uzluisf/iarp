@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on IARP</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on IARP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>xyz@abc.com (Xyz Zyx)</managingEditor>
+    <webMaster>xyz@abc.com (Xyz Zyx)</webMaster>
+    <copyright>╰( ･ ᗜ ･ )╯</copyright>
+    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Music</title>
+      <link>/posts/music/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/music/</guid>
+      <description>  Artists Channels Songs  Artists  憂鬱 A.L.I.S.O.N Ark Patrol Beats for Nujabes Blazo Bonobo Com Truise Electronic Gems Emil Rottmayer  Descend  Flamingosis Fluence FM-84 Gold Panda Hello Meteor Handbooks HOME 1  Before The Night Falling Into Place Odissey  Idealism IHF In Love With A Ghost Jon Hopkins JPJ Kodomo Maximum Love Mura Masa  Someday Somewhere Soundtrack To A Death   Nujabes ODESZA Rosentwig Slow Magic Tycho Vanilla Wafia WMD  Channels Songs </description>
+    </item>
+    
+    <item>
+      <title>Rendering Math</title>
+      <link>/posts/math/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/math/</guid>
+      <description>Inline math To inline use $...$ or \(...\).
+This formula $f(x) = x^2$ is an example. This formula \(\frac{x^{2} + 1}{5} = 4 \) is another example.  This formula $f(x) = x^2$ is an example.
+This formula (\frac{x^{2} + 1}{5} = 4 ) is another example.
+Display math To render math in display mode, use $$...$$ or \[...\].
+$$\frac{x^{2} + 1}{5} = 1$$</description>
+    </item>
+    
+    <item>
+      <title>Short Markdown and HTML reference</title>
+      <link>/posts/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/basic-elements/</guid>
+      <description>Basic Markdown Headings # Heading level 1 ## Heading level 2 ### Heading level 3 #### Heading level 4 ##### Heading level 5 ###### Heading level 6  Result:
+Heading level 1 Heading level 2 Heading level 3 Heading level 4 Heading level 5 Heading level 6 Paragraphs The Cosmos is all that is or ever was or ever will be. Our feeblest contemplations of the Cosmos stir us — there is a tingling in the spine, a catch in the voice, a faint sensation as if a distant memory, of falling from a height.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/posts/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/links/</guid>
+      <description> The manuscripts of Edsger W. Dijkstra * http://www.cs.utexas.edu/~EWD/  </description>
+    </item>
+    
+  </channel>
+</rss>

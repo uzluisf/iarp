@@ -1,6 +1,7 @@
 ---
 title: "Links"
 date: null
+include_math: false
 categories: ["Links"]
 tags: []
 ---

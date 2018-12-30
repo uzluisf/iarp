@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on IARP</title>
+    <link>/tags/html/</link>
+    <description>Recent content in Html on IARP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>xyz@abc.com (Xyz Zyx)</managingEditor>
+    <webMaster>xyz@abc.com (Xyz Zyx)</webMaster>
+    <copyright>╰( ･ ᗜ ･ )╯</copyright>
+    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rendering Math</title>
+      <link>/posts/math/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/math/</guid>
+      <description>Inline math To inline use $...$ or \(...\).
+This formula $f(x) = x^2$ is an example. This formula \(\frac{x^{2} + 1}{5} = 4 \) is another example.  This formula $f(x) = x^2$ is an example.
+This formula (\frac{x^{2} + 1}{5} = 4 ) is another example.
+Display math To render math in display mode, use $$...$$ or \[...\].
+$$\frac{x^{2} + 1}{5} = 1$$</description>
+    </item>
+    
+    <item>
+      <title>Short Markdown and HTML reference</title>
+      <link>/posts/basic-elements/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      <author>xyz@abc.com (Xyz Zyx)</author>
+      <guid>/posts/basic-elements/</guid>
+      <description>Basic Markdown Headings # Heading level 1 ## Heading level 2 ### Heading level 3 #### Heading level 4 ##### Heading level 5 ###### Heading level 6  Result:
+Heading level 1 Heading level 2 Heading level 3 Heading level 4 Heading level 5 Heading level 6 Paragraphs The Cosmos is all that is or ever was or ever will be. Our feeblest contemplations of the Cosmos stir us — there is a tingling in the spine, a catch in the voice, a faint sensation as if a distant memory, of falling from a height.</description>
+    </item>
+    
+  </channel>
+</rss>

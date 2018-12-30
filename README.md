@@ -47,17 +47,18 @@ PaginatePath = "page"
     description     = "Notes website" # Site's description
     datefmt         = "02 Jan 2006"   # Custom date format
     showfullcontent = false           # Show full content
-    math            = true            # Enable Mathjax support
+
+# MathJax support must be enabled per page. To enable it, include 
+# `include_math = true` in your page's front matter.
 
 [author]
     name  = "Xyz Zyx"
     email = "xyz@abc.com"
 
-# Define all supported taxonomies (add series to the default)
+# Define all supported taxonomies
 [taxonomies]
     tags       = "tags"
     categories = "categories"
-    series     = "series"
 
 # Configure main menu entries (header)
 [menu]
