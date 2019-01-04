@@ -48,9 +48,6 @@ PaginatePath = "page"
     datefmt         = "02 Jan 2006"   # Custom date format
     showfullcontent = false           # Show full content
 
-# MathJax support must be enabled per page. To enable it, include 
-# `include_math = true` in your page's front matter.
-
 [author]
     name  = "Xyz Zyx"
     email = "xyz@abc.com"
@@ -73,6 +70,15 @@ PaginatePath = "page"
         url        = "/tags/"
         weight     = 2
 ```
+
+### Per-page config
+
+MathJax support must be enabled per page. To enable it, include 
+`include_math = true` in your page's front matter. Likewise, to include
+Mermaid diagrams, include `include_mermaid = true` in your page's front matter.
+
+To exclude a certain page on the front page, include `exclude_page = null`
+in the page's front matter.
 
 ## Contribution
 

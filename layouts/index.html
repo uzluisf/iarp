@@ -2,6 +2,8 @@
 {{ $showfull := cond (isset $.Site.Params "showfullcontent") $.Site.Params.showfullcontent false }}
 {{- range $idx, $_ := .Paginator.Pages }}
 
+<!-- show if exclude_page isn't in front matter -->
+{{ if (not (isset .Params "exclude_page")) }}
 <p {{ if and $showfull $idx }}class="post-divider"{{ end }}>
   <div>
     <h2 class="post-title">
@@ -13,6 +15,8 @@
     {{ cond $showfull .Content .Summary }}
   </div>
 </p>
+{{ end }}
+
 {{- end }}
 {{ partial "pagination.html" . }}
 {{- end }}

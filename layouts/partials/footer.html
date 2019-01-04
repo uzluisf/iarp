@@ -92,3 +92,13 @@ function setElementsClass(selector, value) {
 	do_wrapping();
 </script>
 
+{{ if .Params.include_mermaid }}
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}assets/mermaid/mermaid.css" />
+
+<script src="{{ .Site.BaseURL }}assets/mermaid/mermaid.js" />
+<script>
+        mermaid.initialize({ startOnLoad: true });
+</script>
+
+{{ end }}
